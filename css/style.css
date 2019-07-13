@@ -150,7 +150,34 @@ img{
 
 
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2FB5F4;
+    padding: 20px;
+}
 
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+    margin-right: 30px;
+}
+ul li:last-child{
+    margin-right: 0px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #221E1F !important;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
 
 
 
